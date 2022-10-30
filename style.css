@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #252525;
+}
+
+@media (max-width: 850px) {
+    #quo {
+        opacity: 0;
+    }
+}
+
+@media (min-width: 851px) {
+    #quo {
+        opacity: 100;
+    }
+}
+
+.nav {
+    position: absolute;
+    bottom: 1px;
+    background-color: rgba(10, 5, 14, 0.774);
+    width: 100%;
+    margin: 0;
+    padding: 5px 0 5px 0px;
+}
+
+.down-bar-quotes {
+    padding-left: 25px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
