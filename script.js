@@ -4,7 +4,7 @@ const WIDTH  = window.innerWidth;
 
 $("#quo").hide()
 
-if (WIDTH <= 850) {
+if (WIDTH >= 850) {
 
     var app = document.getElementById('quo');
 
