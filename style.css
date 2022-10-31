@@ -31,3 +31,43 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#desc-box {    
+    width: 70%;
+    padding: 5px;
+    background-color: #252525;
+    border-right: 0px;
+    border-radius: 10px 10px 1px 1px;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 3px solid teal ;
+    outline: none;
+    color: white;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#btn {
+    font-size: 25px;
+    padding: 7px;
+    width: 20%;
+    background-color: #252525;
+    border: 2px solid teal;
+    border-radius: 10px;
+}
+
+#btn:active {
+    font-size: 25px;
+    padding: 7px;
+    width: 20%;
+    background-color: teal;
+    border: 2px solid teal; 
+}
+
+
+#btn:hover {
+    font-size: 25px;
+    padding: 7px;
+    width: 20%;
+    background-color: teal;
+    border: 2px solid teal;
+}
